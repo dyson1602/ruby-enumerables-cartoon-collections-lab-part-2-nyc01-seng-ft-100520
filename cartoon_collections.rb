@@ -20,7 +20,7 @@ def find_valid_calls(planeteer_calls)
     elsif
       nil
     end
-    
+  call
   end
   
 end
