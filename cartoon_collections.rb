@@ -14,11 +14,11 @@ def find_valid_calls(planeteer_calls)
  
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  
-  planeteer_calls.detect() 
+  planeteer_calls.detect(valid_calls) do |i|
     
     
     
-    valid_calls.any?.collect {|j| j == i}
+    
   
 
 
