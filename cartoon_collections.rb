@@ -18,6 +18,8 @@ def find_valid_calls(planeteer_calls)
     
     if planeteer_calls.detect(call)
       call
+      elsif
+      nil
     end
     call
   end
