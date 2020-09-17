@@ -17,6 +17,8 @@ def find_valid_calls(planeteer_calls)
   valid_calls.any? do |call|
     if planeteer_calls.find(call)
       call
+    elsif
+      nil
     end
     
   end
