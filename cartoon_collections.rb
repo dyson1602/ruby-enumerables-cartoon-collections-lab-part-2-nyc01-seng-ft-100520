@@ -16,7 +16,7 @@ def find_valid_calls(planeteer_calls)
  
   planeteer_calls.find do |i|
     valid_calls.any?.collect {|j| j == i}
-  end
+  
 
 
 
