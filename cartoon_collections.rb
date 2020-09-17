@@ -19,14 +19,7 @@ def find_valid_calls(planeteer_calls)
     if planeteer_calls.detect(call)
       call
     end
+    call
   end
-      
-    
-    
-    
-  
-
-
-
 
 end
