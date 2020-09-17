@@ -1,5 +1,5 @@
 def square_array(array)
-  array.each {|i| i ** 2}
+  square_array = array.each {|i| i ** 2}
 end
 
 def summon_captain_planet(planeteer_calls)
