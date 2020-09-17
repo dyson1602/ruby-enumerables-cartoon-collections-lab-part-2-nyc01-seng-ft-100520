@@ -13,15 +13,13 @@ end
 def find_valid_calls(planeteer_calls)
  
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
- 
+  
   valid_calls.any? do |call|
-    
-    if planeteer_calls.detect(call)
+    if planeteer_calls.any? {|i| i == call}
       call
-      elsif
-      nil
     end
-    
+    call
   end
-  call
+  
+  
 end
