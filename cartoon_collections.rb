@@ -18,8 +18,7 @@ def find_valid_calls(planeteer_calls)
     if planeteer_calls.each {|i| i == call}
       call
     end
-    call
+    
   end
-  call
   
 end
